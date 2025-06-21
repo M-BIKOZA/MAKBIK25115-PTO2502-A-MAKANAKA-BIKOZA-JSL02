@@ -1,24 +1,15 @@
-//for loop to manage multiple tasks
-for (let i=0;i <2;++)
-     {
-    //declaring variables to store input
-    let task = prompt ("Enter task"+ (i+1)+"tittle:");
-    let description= prompt (Entre task"+ (i+1) +" description:");
-        let taskStatus=""
-        
-        if (
-            taskStatus==="todo"||
-            taskStatus==="doing"||
-            taskStatus==="done"
-        ) {
-            if (taskStatus==="done") {
-                console.log("Tittle:" + task +", status:" + taskStatus);
-            }
-            else{
-                console.log("No task completed, let's get to work!");
-            }
-        }
+//Task 1 inputs
+let task1Title = prompt("Enter task 1 title:");
+let task1Description = prompt("Enter task 1 description:");
+let task1Status = "";
 
-} while (taskedStatus !=="todo"
-    &&taskStatus!=="doing"
-    &&taskStatus!=="done");
+while(true) {
+    task1Status = prompt(
+        "Enter task 1 status (todo, doing, done):"
+    ).toLowerCase();
+    if (
+        task1Status === "todo"||
+        task1Status === "doing"||
+        task1Status === "done"||
+    )
+}
