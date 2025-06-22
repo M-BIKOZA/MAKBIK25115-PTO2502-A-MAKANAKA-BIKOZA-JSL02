@@ -38,3 +38,22 @@ while (true) {
     }
 }
 
+//Track whether anhy tasks are completed
+let hasCompletedTasks = false;
+
+//Check and display completed tasks
+if (task2Status === "done") {
+    console.log("Title: "+task1Title+",Status:" +task1Status);
+    hasCompletedTasks = true;
+}
+
+if (task2Status === "done"){
+    console.log("Title: "+ task2Title + ",Status:" + task2Status)
+    hasCompletedTasks = true;
+}
+
+//Motivational message if no tasks are done
+if (!hasCompletedTasks) {
+    console.log ("No tasks completed, let's get to work!");
+    }
+
