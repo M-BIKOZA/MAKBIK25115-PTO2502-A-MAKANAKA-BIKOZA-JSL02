@@ -1,3 +1,8 @@
+<https://github.com/M-BIKOZA/JSL02.git>
+my coding separated,i don't know how but the link i copied here is for html and css
+          
+          
+          
           # Hi there, My name is Makanaka Bikoza 
 
 # Here is my JSL02 project
