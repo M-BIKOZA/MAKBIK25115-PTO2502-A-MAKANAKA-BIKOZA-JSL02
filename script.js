@@ -10,7 +10,7 @@ while(true) {
     if (
         task1Status === "todo"||
         task1Status === "doing"||
-        task1Status === "done"||
+        task1Status === "done"
     ) {
         break;
     } else {
@@ -21,7 +21,7 @@ while(true) {
 //Task 2 inputs
 let task2Title = prompt("Enter task 2 title:");
 let task2Description = prompt("Enter task 2 description");
-let task2Status ="",
+let task2Status =""
 
 while (true) {
     task2Status = prompt (
@@ -30,7 +30,7 @@ while (true) {
     if (
         task2Status === "todo"||
         task2Status === "doing"||
-        task2Status === "done"||
+        task2Status === "done"
     ) {
         break;
     } else {
